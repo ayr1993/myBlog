@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/myBlog/',
   title: "道理我都懂的博客~",
@@ -11,7 +10,6 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '动态', link: '/articles/vitepress-seo-optimize' }
     ],
-
     sidebar: [
       {
         text: '文章',
@@ -26,13 +24,12 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
   sitemap: {
-    hostname: "https://ayr1993.github.io/myBlog/",
+    hostname: "https://ayr1993.github.io",
     lastUpdated: true
   }
 })
