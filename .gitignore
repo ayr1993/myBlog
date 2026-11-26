@@ -1,0 +1,8 @@
+# node依赖
+node_modules
+# vitepress产物、缓存
+docs/.vitepress/dist
+docs/.vitepress/cache
+# 系统垃圾
+.DS_Store
+Thumbs.db
