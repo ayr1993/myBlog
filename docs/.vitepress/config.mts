@@ -5,6 +5,9 @@ export default defineConfig({
   title: "道理我都懂的博客~",
   description: "做人最重要的是开心 ",
   lastUpdated: true,
+  head: [
+    ['link', { rel: 'icon', href: '/myBlog/favicon.ico' }]
+  ],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
